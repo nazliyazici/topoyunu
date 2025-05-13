@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="game-container">
+         <button onclick="startGame()">Başla</button>
+         <button onclick="resetGame()">Yeniden Başla</button>
+        <div class="arena">
+             <div class="track" id="track1">
+                 <div class="cizgi"></div>
+                 <div class="ball" id="ball1" style="background-color: red;"></div>
+             </div>
+            <div class="track" id="track2">
+                <div class="cizgi"></div>
+                <div class="ball" id="ball2" style="background-color: rgb(119, 37, 119);"></div>
+            </div>
+             <div class="track" id="track3">
+                 <div class="cizgi"></div>
+                 <div class="ball" id="ball3" style="background-color: rgb(98, 186, 197);"></div>
+             </div>
+        </div>
+        <div class="kazanma" id="kazan">Kazanma Durumu</div>
+        <div class="ranking-buttons" id="ranking-buttons" style="display: none;">
+            <div class="ranking-container">
+                <div class="ranking-button" id="rank1"></div>
+                <div class="rank-number" id="rank-number1"></div>
+            </div>
+            <div class="ranking-container">
+                <div class="ranking-button" id="rank2"></div>
+                <div class="rank-number" id="rank-number2"></div>
+            </div>
+            <div class="ranking-container">
+                <div class="ranking-button" id="rank3"></div>
+                <div class="rank-number" id="rank-number3"></div>
+            </div>
+        </div>
+        
+    <script src="game.js"></script>
+</body>
+</html>
+

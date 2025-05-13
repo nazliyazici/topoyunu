@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(245, 189, 198);
+}
+
+.arena {
+    width: 989px;
+    height: 490px;
+    position: relative;
+    background-color: #4b4b4b;
+    margin: 20px auto;
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.kazanma{
+    display: none;
+    font-size: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.track {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    margin: 3px 0;
+    background-color: #030303;
+    border: 1px dashed #444;
+    display: flex;
+    align-items: center;
+}
+
+.cizgi {
+    width: 100%;
+    border-top: 3px dashed #8f8e8e;
+    margin: 10px 0;
+}
+
+.ball {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    top: 30px;
+}
+
+.ranking-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: end;
+    gap: 10px;
+}
+
+.ranking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ranking-button {
+    width: 30px;
+    height: 70px;
+    font-size: 18px;
+    color: white;
+    background-color: #555;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.rank-number {
+    font-size: 30px;
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+}
